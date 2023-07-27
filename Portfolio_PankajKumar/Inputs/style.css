@@ -1,0 +1,149 @@
+*{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav link{
+    color: #fff !important;
+    padding-right: 20px !important;
+}
+
+.navbar{
+    min-height: 10vh !important;
+    background-color: #090808;
+}
+
+section{
+    min-height: 100vh;
+}
+
+section .inner{
+    padding-top: 10vh !important;
+}
+
+#home h1, #about h1, #education h1, #hobbies h1, #skills h1, #contact h1{
+font-size: 42px;
+}
+
+#home{
+    background-color: lightgray;
+}
+
+#home h1{
+    font-size: 3.5rem;
+    color: #090808;
+}
+
+#home img{
+    margin-left: 30%    ;
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    
+}
+
+#education img, #hobbies img{
+    width: 100px;
+    height: auto;
+}
+
+#about, #hobbies, #contact, #education{
+    background-color: lightgray;
+}
+
+#about p{
+    font-size: 28px;
+    line-height: 50px;
+}
+
+#skills{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ4GPTy79FTncYUVz-pBOc2JgdesaeIvNCeg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#skills .cover{
+    background-color: rgba(0 ,0 ,0, 0.7);
+    color: #fff;
+    min-height: 100vh;
+}
+
+
+#skills li, #contact p{
+    font-size: 26px;
+}
+
+@media (min-width: 320px) and (max-width: 667px){
+    #skills li, #contact p{
+        font-size: 18px;
+    }
+}
+
+#home img{
+    width: 150px;
+    height: auto;
+}
+
+#education img, #hobbies img{
+    width: 100px;
+    height:auto;
+}
+
+#about p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
+/* Newsletter sign-up form */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: auto;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
